@@ -1,0 +1,97 @@
+
+.myUXSkills {
+    margin-top: 100px;
+    border-color: white
+}
+
+.flexContainer {
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-evenly;
+    border-color: white;
+}
+
+.UXDesign, .Development, .Research  {
+    width: 31%;
+    margin: 2%;
+    text-align: center;
+    border-style: dotted;
+    border-color: white;
+    background-color: rgb(211, 211, 211);
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.workGrid {
+    display: flex;
+    background: white;
+    align-items: center;
+  }
+  
+.work{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin-left: 33%;
+}
+
+div p {
+    text-align: center;
+}
+
+div h3 {
+    text-align: center;
+}
+
+/*nav bars css code*/
+
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+.logo {
+    padding: 1%;
+    width: 20%;
+    display: inline-block;
+}
+.nav{
+    width: 60%;
+    padding: 1%;
+}
+header ul{
+    display: flex;
+    width: 700px; 
+    margin-top:auto;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(199, 195, 195)
+}
+header li{
+    padding: 20px;
+}
+
+footer {
+    margin: 0px;
+       background-color: rgb(208, 208, 208);
+   }
+   footer ul {
+       display: flex;
+       justify-content: space-between;
+       padding: 30px 200px;
+       list-style: none;
+       text-align: center;
+       vertical-align: top;
+       background-color: rgb(225, 225, 225);
+   }
+   .content {
+    width: 500px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+   }
